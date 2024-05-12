@@ -16,16 +16,9 @@ class firstjdbc{
 
             if(con.isClosed()){
                 System.out.println("Connection closed");
-            }
+            }else{
             System.out.println("Connection has been created!!!");
-            con.close();
-
-            //create statement
-
-
-
-
-
+            }
 
         }catch(Exception e){
             e.printStackTrace();
